@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.727 s <<< FAILURE! - in LoginTest
+loginTest(LoginTest)  Time elapsed: 4.293 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Administrators-MacBook-Air-37.local', ip: 'fe80:0:0:0:488:1c72:c91d:d512%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/s6/kbz5nvl10q5...}, goog:chromeOptions: {debuggerAddress: localhost:56308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2700948e3e20b8cff18e4685afc25f34
+	at LoginTest.loginTest(LoginTest.java:13)
+
