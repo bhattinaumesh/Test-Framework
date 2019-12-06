@@ -15,5 +15,6 @@ public class Frames {
           driver.switchTo().frame(driver.findElement(By.xpath("//frame[@name='frame-top']")));
                 driver.switchTo().frame(driver.findElement(By.xpath("//frame[@name='frame-middle']")));
         System.out.println( driver.findElement(By.id("content")).getText());
+        System.out.println("Just for test");
     }
 }
